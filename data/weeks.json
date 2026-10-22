@@ -2,57 +2,193 @@
   {
     "startDate": "2026-10-22",
     "endDate": "2026-10-28",
-    "title": "Find the rhythm",
-    "target": "Make room for easy running around football.",
-    "adjustment": "Keep the week flexible; the first 3 km is logged."
+    "title": "Settle in",
+    "target": "Three flexible easy-run slots; use conversational effort (about 3\u20134/10), with walking breaks whenever needed.",
+    "adjustment": "Includes the completed 3 km on 22 Oct; the other sessions remain planned.",
+    "sessions": [
+      {
+        "kind": "Easy 1",
+        "minKm": 3,
+        "maxKm": 3
+      },
+      {
+        "kind": "Easy 2",
+        "minKm": 3,
+        "maxKm": 3
+      },
+      {
+        "kind": "Long easy",
+        "minKm": 4,
+        "maxKm": 4
+      }
+    ]
   },
   {
     "startDate": "2026-10-29",
     "endDate": "2026-11-04",
-    "title": "Repeat, then build",
-    "target": "Aim for a repeatable week of comfortable running.",
-    "adjustment": "Adjust the amount to recovery and football load."
+    "title": "Build consistency",
+    "target": "Three flexible easy-run slots; use conversational effort (about 3\u20134/10), with walking breaks whenever needed.",
+    "adjustment": "Progress only if week 1 felt comfortable and recovery is normal.",
+    "sessions": [
+      {
+        "kind": "Easy 1",
+        "minKm": 3,
+        "maxKm": 3
+      },
+      {
+        "kind": "Easy 2",
+        "minKm": 3,
+        "maxKm": 3
+      },
+      {
+        "kind": "Long easy",
+        "minKm": 5,
+        "maxKm": 5
+      }
+    ]
   },
   {
     "startDate": "2026-11-05",
     "endDate": "2026-11-11",
-    "title": "Time on feet",
-    "target": "Consider a little more time on an easy outing if recovered.",
-    "adjustment": "Distance is optional; consistency is the target."
+    "title": "Extend gently",
+    "target": "Three flexible easy-run slots; use conversational effort (about 3\u20134/10), with walking breaks whenever needed.",
+    "adjustment": "Repeat the previous week if the longer run or football left lingering fatigue.",
+    "sessions": [
+      {
+        "kind": "Easy 1",
+        "minKm": 3,
+        "maxKm": 3
+      },
+      {
+        "kind": "Easy 2",
+        "minKm": 4,
+        "maxKm": 4
+      },
+      {
+        "kind": "Long easy",
+        "minKm": 6,
+        "maxKm": 6
+      }
+    ]
   },
   {
     "startDate": "2026-11-12",
     "endDate": "2026-11-18",
-    "title": "Settle into it",
-    "target": "Keep most running comfortable and leave room for recovery.",
-    "adjustment": "Football counts toward the week’s total effort."
+    "title": "Recovery week",
+    "target": "Three flexible easy-run slots; use conversational effort (about 3\u20134/10), with walking breaks whenever needed.",
+    "adjustment": "A lighter week. Do not catch up on missed kilometres.",
+    "sessions": [
+      {
+        "kind": "Easy 1",
+        "minKm": 3,
+        "maxKm": 3
+      },
+      {
+        "kind": "Easy 2",
+        "minKm": 3,
+        "maxKm": 3
+      },
+      {
+        "kind": "Long easy",
+        "minKm": 5,
+        "maxKm": 5
+      }
+    ]
   },
   {
     "startDate": "2026-11-19",
     "endDate": "2026-11-25",
-    "title": "Check in",
-    "target": "Review logged effort and how the longer outings feel.",
-    "adjustment": "Reassess the race target using current training, not old PBs."
+    "title": "Check endurance",
+    "target": "Three flexible easy-run slots; use conversational effort (about 3\u20134/10), with walking breaks whenever needed.",
+    "adjustment": "Choose 7 km first; 8 km is optional only if recovered. Reassess the race goal.",
+    "sessions": [
+      {
+        "kind": "Easy 1",
+        "minKm": 4,
+        "maxKm": 4
+      },
+      {
+        "kind": "Easy 2",
+        "minKm": 4,
+        "maxKm": 4
+      },
+      {
+        "kind": "Long easy",
+        "minKm": 7,
+        "maxKm": 8
+      }
+    ]
   },
   {
     "startDate": "2026-11-26",
     "endDate": "2026-12-02",
-    "title": "Keep it sustainable",
-    "target": "Choose a manageable week based on recent recovery.",
-    "adjustment": "No last-minute distance catch-up."
+    "title": "Longest training outing",
+    "target": "Three flexible easy-run slots; use conversational effort (about 3\u20134/10), with walking breaks whenever needed.",
+    "adjustment": "Use the lower end first. This does not establish readiness for 21.1 km.",
+    "sessions": [
+      {
+        "kind": "Easy 1",
+        "minKm": 4,
+        "maxKm": 4
+      },
+      {
+        "kind": "Easy 2",
+        "minKm": 4,
+        "maxKm": 4
+      },
+      {
+        "kind": "Long easy",
+        "minKm": 9,
+        "maxKm": 10
+      }
+    ]
   },
   {
     "startDate": "2026-12-03",
     "endDate": "2026-12-09",
-    "title": "Make some space",
-    "target": "Reduce training load and prioritize feeling rested.",
-    "adjustment": "Keep football flexible too."
+    "title": "Ease down",
+    "target": "Three flexible easy-run slots; use conversational effort (about 3\u20134/10), with walking breaks whenever needed.",
+    "adjustment": "Keep every session comfortable; prioritize recovery over extra distance.",
+    "sessions": [
+      {
+        "kind": "Easy 1",
+        "minKm": 3,
+        "maxKm": 3
+      },
+      {
+        "kind": "Easy 2",
+        "minKm": 3,
+        "maxKm": 3
+      },
+      {
+        "kind": "Long easy",
+        "minKm": 6,
+        "maxKm": 6
+      }
+    ]
   },
   {
     "startDate": "2026-12-10",
     "endDate": "2026-12-13",
-    "title": "Arrive fresh",
-    "target": "Keep any running light and optional before race day.",
-    "adjustment": "Race result stays unreported until a result is supplied."
+    "title": "Race window",
+    "target": "Optional short easy run, rest, then race day if ready.",
+    "adjustment": "Optional 2 km easy on 10 or 11 Dec; rest on 12 Dec. Race 13 Dec only if ready; pace and participation remain reassessable.",
+    "sessions": [
+      {
+        "kind": "Easy 1",
+        "minKm": 2,
+        "maxKm": 2
+      },
+      {
+        "kind": "Easy 2",
+        "minKm": 0,
+        "maxKm": 0
+      },
+      {
+        "kind": "Race",
+        "minKm": 21.0975,
+        "maxKm": 21.0975
+      }
+    ]
   }
 ]

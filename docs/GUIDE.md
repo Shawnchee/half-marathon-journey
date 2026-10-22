@@ -200,3 +200,11 @@ The public page is now compact: race target/countdown, logged totals, latest run
 This is GitHub-authenticated owner access, not a separate website account. The public link does not grant permissions. Workflow dispatch is additionally restricted to the repository owner. There are no admin tokens or passwords in the website. A custom in-page admin form would require an authenticated backend or OAuth integration; this static site deliberately delegates sign-in and writes to GitHub.
 
 Corrections: edit `data/logs.json` through GitHub's file editor while signed in as the owner, then commit. A push to `main` runs the same validation/build/deployment workflow. Local edits and the chat-based update process still work. The README stays short. Pages now deploys through **GitHub Actions**, replacing the earlier branch-publishing instructions.
+
+## Concrete weekly training targets
+
+The live plan now replaces the earlier qualitative intentions with three flexible session slots per week: Easy 1, Easy 2, and a longer easy run (race in the last window). `data/weeks.json` stores each session's `kind`, `minKm`, and `maxKm`; the site calculates the suggested weekly totals. Planned kilometres never contribute to completed-run totals. The first week's target includes the already completed 22 October run.
+
+The plan is visible by default; only detailed recovery and weekly adjustment notes are folded away. Easy runs use conversational effort, approximately 3–4/10, not the race-target pace. Football counts as hard activity; skipping the second easy run and repeating a week are acceptable adjustments. The final window is an optional 2 km, rest, then race day if ready.
+
+This is a custom, conditional proposal based on the limited supplied recent training, not a compressed claim of readiness. The 52-day window is shorter than the 12-week beginner programmes provided by [Great Run](https://www.greatrun.org/train-and-prepare/training-plans/half-marathon-training-plan/). Rest-day guidance is informed by [NHS beginner running guidance](https://www.nhs.uk/better-health/get-active/get-running-with-couch-to-5k/). Reassess both race participation and the sub-6:00 goal using actual training and recovery. Historical PBs do not set current training pace.

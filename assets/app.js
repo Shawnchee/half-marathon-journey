@@ -21,11 +21,18 @@
   if(last){put('entry-date',date(last.date,{day:'numeric',month:'long'}));put('entry-km',last.distanceKm.toFixed(1));put('entry-pace',pace(Math.round(last.durationSeconds/last.distanceKm))+' /km');put('entry-duration',pace(last.durationSeconds));put('entry-effort',last.effort+' / 10');}
   else { document.querySelector('.latest').replaceChildren(el('p','No completed runs logged yet.')); }
   for(const r of [...sorted].reverse()) {const tr=el('tr');[date(r.date,{day:'numeric',month:'short',year:'numeric'}),r.distanceKm.toFixed(1)+' km',pace(Math.round(r.durationSeconds/r.distanceKm)),pace(r.durationSeconds),r.effort+' / 10'].forEach(v=>tr.append(el('td',v)));$('log-rows').append(tr);}
+  const km=value=>Number.isInteger(value)?String(value):value===21.0975?'21.1':String(value);
+  const range=(lo,hi)=>lo===0&&hi===0?'Rest':lo===hi?km(lo)+' km':km(lo)+'–'+km(hi)+' km';
   for(const [i,w] of weeks.entries()){
-   const details=el('details'); const summary=el('summary'); const active=now>=w.startDate&&now<=w.endDate;
-   summary.append(el('span',String(i+1).padStart(2,'0'),`week-num${active?' active':''}`),el('span',w.title,'week-title'),el('span',`${date(w.startDate)} – ${date(w.endDate)}`,'week-dates'),el('span',active?'This week':now>w.endDate?'Past window':'Upcoming',`pill${active?' accent':''}`));
-   const body=el('div',undefined,'week-body');body.append(el('p',w.target),el('p',w.adjustment),el('p','Flexible intention · completion is not inferred from dates.','small'));
-   details.append(summary,body);$('timeline').append(details);
+   const row=el('tr');const window=el('th');window.scope='row';
+   window.append(el('strong',date(w.startDate)+' – '+date(w.endDate)),el('small','Week '+(i+1)));
+   row.append(window);
+   w.sessions.forEach(session=>row.append(el('td',session.kind==='Race'?'Race · 21.1 km':range(session.minKm,session.maxKm))));
+   const low=w.sessions.reduce((sum,s)=>sum+s.minKm,0),high=w.sessions.reduce((sum,s)=>sum+s.maxKm,0);
+   row.append(el('td',i===7?'2 km + race':range(low,high)));
+   if(now>=w.startDate&&now<=w.endDate)row.className='current-week';
+   $('plan-rows').append(row);
+   const note=el('li');note.append(el('strong','W'+(i+1)+' · '+w.title+': '),document.createTextNode(w.adjustment));$('plan-adjustments').append(note);
   }
   journey.historicalBests.forEach(pb=>{const article=el('article',undefined,'pb');const left=el('div'),right=el('div');left.append(el('h3',pb.distanceKm+' km'),el('small',pb.longestReported?'PB · longest reported':'Personal best'));right.append(el('strong',pace(pb.paceSecondsPerKm)+' '),el('small','min/km'),el('p',pb.when,'small muted'));article.append(left,right);$('pbs').append(article);});
   const ns='http://www.w3.org/2000/svg';

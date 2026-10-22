@@ -43,11 +43,16 @@ def build():
     require(isinstance(weeks,list) and len(weeks)==8,'Keep eight flexible training windows.')
     previous=date(j['startDate'])-dt.timedelta(days=1)
     for w in weeks:
-        keys(w,['startDate','endDate','title','target','adjustment'])
+        keys(w,['startDate','endDate','title','target','adjustment','sessions'])
         require(date(w['startDate'])==previous+dt.timedelta(days=1),'Weekly windows must be contiguous.')
         require(date(w['endDate'])>=date(w['startDate']),'Invalid week window.')
         for field in ['title','target','adjustment']:
             require(isinstance(w[field],str) and 0<len(w[field])<=300,'Use short, anonymous plan text.')
+        require(isinstance(w['sessions'],list) and len(w['sessions'])==3,'Each week needs three flexible session slots.')
+        for session in w['sessions']:
+            keys(session,['kind','minKm','maxKm'])
+            require(session['kind'] in ['Easy 1','Easy 2','Long easy','Race'],'Invalid session label.')
+            require(number(session['minKm']) and number(session['maxKm']) and 0<=session['minKm']<=session['maxKm']<=21.0975,'Invalid planned distance range.')
         previous=date(w['endDate'])
     require(previous==date(j['raceDate']),'Weekly windows must end on race day.')
     payload=json.dumps({'journey':j,'logs':logs,'weeks':weeks,'community':community},ensure_ascii=True).replace('<','\\u003c').replace('>','\\u003e').replace('&','\\u0026')
