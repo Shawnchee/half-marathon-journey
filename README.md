@@ -176,3 +176,7 @@ Distances, times, pace, and countdown figures use self-hosted **IBM Plex Mono Re
 ### Visual assets
 
 The editorial strip is **AI-generated artwork**, not a photograph of the runner or their surroundings. The built-in imagegen tool created `assets/images/track-study.png`; the exact final prompt and source note are in [the asset provenance record](docs/asset-provenance.md). No image service is contacted by the website. The repository's image exception is limited to this deliberate artwork.
+
+### Restrained motion
+
+Only pointer-opened weekly details and the training log receive a brief content fade. Keyboard activation and layout changes stay immediate; reduced-motion preferences receive a gentler fade. No animated charts, counters, parallax, card-hover choreography, or motion dependencies. See [the opportunity review and rejected candidates](docs/motion-review.md).
