@@ -184,3 +184,19 @@ The editorial strip is **AI-generated artwork**, not a photograph of the runner 
 ### Restrained motion
 
 Only pointer-opened weekly details and the training log receive a brief content fade. Keyboard activation and layout changes stay immediate; reduced-motion preferences receive a gentler fade. No animated charts, counters, parallax, card-hover choreography, or motion dependencies. See [the opportunity review and rejected candidates](motion-review.md).
+
+## Current live setup (supersedes the earlier setup notes)
+
+The public page is now compact: race target/countdown, logged totals, latest run, chart, and full run log. The weekly intentions and historical PBs are collapsed. Notes link directly to the enabled GitHub Discussions space; no giscus app or embedded widget is required. Visitors sign in on GitHub to start a discussion or reply. Posting notes does not give them edit access to this repository.
+
+### Log as the owner
+
+1. Use **Log a run** at the bottom of the live page.
+2. Sign in to GitHub as **Shawnchee** if prompted.
+3. On **Update journal**, choose **Run workflow** on `main`.
+4. Enter the completed run's date, kilometre distance, duration (`M:SS` or `H:MM:SS`), and effort (`1`–`10`), then run it. Check the additional-run box only for a separate second run on an already logged date.
+5. Wait for the workflow to succeed. It validates the entry, commits the log as Shawnchee using a noreply email, updates the charts, and deploys Pages. Invalid entries or duplicates fail without saving a run.
+
+This is GitHub-authenticated owner access, not a separate website account. The public link does not grant permissions. Workflow dispatch is additionally restricted to the repository owner. There are no admin tokens or passwords in the website. A custom in-page admin form would require an authenticated backend or OAuth integration; this static site deliberately delegates sign-in and writes to GitHub.
+
+Corrections: edit `data/logs.json` through GitHub's file editor while signed in as the owner, then commit. A push to `main` runs the same validation/build/deployment workflow. Local edits and the chat-based update process still work. The README stays short. Pages now deploys through **GitHub Actions**, replacing the earlier branch-publishing instructions.

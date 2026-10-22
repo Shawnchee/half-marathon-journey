@@ -1,0 +1,86 @@
+name: Update journal
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Run date (YYYY-MM-DD)'
+        required: true
+        type: string
+      distance:
+        description: 'Distance in kilometres (for example 3.0)'
+        required: true
+        type: string
+      duration:
+        description: 'Duration (M:SS or H:MM:SS)'
+        required: true
+        type: string
+      effort:
+        description: 'Effort from 1 to 10'
+        required: true
+        type: string
+      same_day:
+        description: 'A separate additional run on a date already logged'
+        default: false
+        type: boolean
+permissions:
+  contents: read
+concurrency:
+  group: journal-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.event_name != 'workflow_dispatch' || github.actor == github.repository_owner
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Record a completed run
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          RUN_DATE: ${{ inputs.date }}
+          RUN_DISTANCE: ${{ inputs.distance }}
+          RUN_DURATION: ${{ inputs.duration }}
+          RUN_EFFORT: ${{ inputs.effort }}
+          RUN_SAME_DAY: ${{ inputs.same_day }}
+        run: |
+          python3 - <<'PY'
+          import os, subprocess
+          command=['python3','scripts/log_run.py','--date',os.environ['RUN_DATE'],'--km',os.environ['RUN_DISTANCE'],'--duration',os.environ['RUN_DURATION'],'--effort',os.environ['RUN_EFFORT']]
+          if os.environ['RUN_SAME_DAY']=='true': command.append('--allow-same-day')
+          subprocess.run(command,check=True)
+          PY
+      - name: Validate and refresh data
+        run: python3 scripts/build.py
+      - name: Save the run as the repository owner
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name Shawnchee
+          git config user.email 116136622+Shawnchee@users.noreply.github.com
+          git add data/logs.json assets/data.js docs/GUIDE.md README.md
+          git commit -m 'log: add completed training run'
+          git push origin HEAD:main
+      - name: Prepare public site
+        run: |
+          mkdir -p _site
+          cp index.html README.md .nojekyll _site/
+          cp -R assets data docs _site/
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

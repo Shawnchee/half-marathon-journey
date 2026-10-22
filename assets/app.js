@@ -43,7 +43,7 @@
     [0,.5,1].forEach(v=>{let y=170-v*140;line(36,y,534,y);text(27,y+4,(v*max).toFixed(1),{'text-anchor':'end'});});
     totals.forEach((v,i)=>{let x=49+i*61;let h=v/max*140;const rect=svgEl('rect',{x,y:v?170-h:167,width:30,height:v?h:3,rx:3,fill:v?'var(--orange)':'none',stroke:v?'none':'var(--muted)','stroke-dasharray':v?'':'3 3'});rect.append(svgEl('title',{},`Week ${i+1}: ${v?v.toFixed(1)+' km logged':'no runs logged'}`));svg.append(rect);if(v)text(x+15,160-h,v.toFixed(1),{'text-anchor':'middle',fill:'var(--accent)'});text(x+15,195,'W'+(i+1),{'text-anchor':'middle'});});
     desc.textContent='Weekly logged distance: '+totals.map((v,i)=>`week ${i+1}, ${v.toFixed(1)} kilometres`).join('; ')+'. Empty weeks are unlogged, not confirmed rest weeks.';
-    put('chart-caption','Solid = logged distance. Dashed = no entry. Empty weeks do not imply rest or missed targets.');
+    put('chart-caption','Solid: logged distance. Dashed: no entry.');
    }else{
     put('chart-title','Pace, one run at a time');
     const values=sorted.map(r=>r.durationSeconds/r.distanceKm), low=Math.min(330,...values)-15,high=Math.max(435,...values)+15;
@@ -53,7 +53,7 @@
     sorted.forEach(r=>{const x=54+(day(r.date)-day(journey.startDate))/(day(journey.raceDate)-day(journey.startDate))*460;const v=Math.round(r.durationSeconds/r.distanceKm);const c=svgEl('circle',{cx:x,cy:y(v),r:5,fill:'var(--orange)'});c.append(svgEl('title',{},`${date(r.date)}: ${pace(v)} min/km`));svg.append(c);text(x+10,y(v)+4,pace(v));});
     text(44,198,'22 Oct');text(528,198,'13 Dec',{'text-anchor':'end'});
     desc.textContent=sorted.length?sorted.map(r=>`${date(r.date)}: ${pace(Math.round(r.durationSeconds/r.distanceKm))} minutes per kilometre`).join('; ')+'. Dashed reference: sub-6:00 race goal.':'No pace entries yet.';
-    put('chart-caption','Dots = completed runs. Dashed line = race goal, not an easy-run pace prescription. No trend or forecast from one run.');
+    put('chart-caption','Dots: completed runs. Dashed: race target, not an easy-run pace.');
    }
    $('chart').replaceChildren(svg);
   }
