@@ -168,3 +168,7 @@ For a guestbook without GitHub accounts, a separate storage service plus spam co
 The updated UI uses platform system fonts, stationary color washes, a floating frosted toolbar, and thicker translucent panels for important content, following the Apple design skill's material and hierarchy guidance. Press feedback is immediate. Light and dark themes, visible keyboard focus, and readable chart labels are preserved. Reduced-motion preferences remove transforms; reduced-transparency and increased-contrast preferences use solid, defined surfaces. Browsers without backdrop-filter receive solid surfaces.
 
 Additional files: `assets/glass.css` contains the glass theme; `assets/community.js` handles opt-in comments; `data/community.json` stores the disabled-by-default public connection settings; `scripts/log_run.py` is the optional validated run-entry helper.
+
+### Number typography
+
+Distances, times, pace, and countdown figures use self-hosted **IBM Plex Mono Regular** with tabular numerals. The rest of the interface uses the platform system font. Font source: the Google Fonts IBM Plex Mono distribution; its SIL Open Font License is included in `assets/fonts/OFL.txt`. No font service is contacted by visitors.
