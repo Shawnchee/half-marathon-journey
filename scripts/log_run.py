@@ -32,7 +32,7 @@ def main():
     if run in logs: parser.error('This exact run is already logged. No changes made.')
     if any(row['date']==args.date for row in logs) and not args.allow_same_day:
         parser.error('A run exists on this date. Edit it to correct it, or use --allow-same-day for a distinct additional run.')
-    generated={p:p.read_bytes() for p in [ROOT/'assets/data.js',ROOT/'README.md',ROOT/'docs/GUIDE.md']}
+    generated={p:p.read_bytes() for p in [ROOT/'assets/data.js',ROOT/'README.md',ROOT/'docs/GUIDE.md',ROOT/'index.html']}
     logs.append(run)
     try:
         path.write_text(json.dumps(logs,indent=2)+'\n')

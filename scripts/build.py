@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Validate the public-data allowlist and refresh browser + README data. No dependencies."""
+import hashlib
 import datetime as dt
 import json
 import math
@@ -63,5 +64,12 @@ def build():
             content=path.read_text()
             content=re.sub(r'<!-- STATS:START -->.*?<!-- STATS:END -->','<!-- STATS:START -->\n'+summary+'\n<!-- STATS:END -->',content,flags=re.S)
             path.write_text(content)
-    print('Validated public data; refreshed assets/data.js and README statistics.')
+    # Content fingerprints prevent stale charts/styles after a Pages deployment.
+    html_path=ROOT/'index.html'
+    def fingerprint(match):
+        asset=match.group(2)
+        digest=hashlib.sha256((ROOT/asset).read_bytes()).hexdigest()[:12]
+        return match.group(1)+asset+'?v='+digest+match.group(3)
+    html_path.write_text(re.sub(r'((?:src|href)=")(assets/[^"?]+\.(?:css|js))(?:\?v=[^"]*)?(")',fingerprint,html_path.read_text()))
+    print('Validated public data; refreshed browser data, guide statistics, and asset fingerprints.')
 if __name__=='__main__': build()
