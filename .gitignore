@@ -16,3 +16,5 @@ __pycache__/
 private/
 work/
 node_modules/
+# Deliberately generated public artwork; personal photos remain excluded.
+!assets/images/track-study.png

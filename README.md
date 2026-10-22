@@ -85,7 +85,7 @@ Edit **data/weeks.json** to adjust weekly intentions. The script validates their
 
 ### Publish to GitHub Pages — when you're ready
 
-Nothing in this package creates an account, accesses GitHub, pushes a repository, or publishes a site. The following steps are for you to perform only when you choose to share it. Menu labels can change.
+The site itself does not access GitHub or publish updates. The following steps describe how to publish the static site when you choose to share it. Menu labels can change.
 
 1. Review every file first. Create a new public repository with a neutral name such as `half-marathon-journey`. A public repository reveals its owning account; choose an account whose public identity you are comfortable associating with this journal.
 2. Upload **the contents of this folder** to the repository root, including `.nojekyll` and `.gitignore`. Keep `index.html` at the root, not nested inside another folder. Do not upload the ZIP itself.
@@ -149,7 +149,7 @@ Use the required date, kilometre, duration, and effort arguments to add a real c
 
 **No separate database is required for this setup.** Run records live in the JSON files. Visitor comments, replies, and reactions will live in GitHub Discussions through [giscus](https://giscus.app/). This is an asynchronous conversation space, not live chat. Visitors need a GitHub account to post; GitHub profile names and avatars can appear in the discussion. Keep visitor comments separate from your anonymous training records.
 
-The site's notes section is implemented, but **not connected**. `data/community.json` has `enabled: false`, and every repository field is empty. No repository was accessed or created and no app was installed. There are no fabricated comments or locally saved “public” messages. The disabled state clearly says that notes are not being collected.
+The site's notes section is implemented, but **not connected**. `data/community.json` has `enabled: false`, and every repository field is empty. Connecting this feature requires a real repository and the giscus app; neither is provisioned by the site code. There are no fabricated comments or locally saved “public” messages. The disabled state clearly says that notes are not being collected.
 
 When you choose to connect it:
 
@@ -172,3 +172,7 @@ Additional files: `assets/glass.css` contains the glass theme; `assets/community
 ### Number typography
 
 Distances, times, pace, and countdown figures use self-hosted **IBM Plex Mono Regular** with tabular numerals. The rest of the interface uses the platform system font. Font source: the Google Fonts IBM Plex Mono distribution; its SIL Open Font License is included in `assets/fonts/OFL.txt`. No font service is contacted by visitors.
+
+### Visual assets
+
+The editorial strip is **AI-generated artwork**, not a photograph of the runner or their surroundings. The built-in imagegen tool created `assets/images/track-study.png`; the exact final prompt and source note are in [the asset provenance record](docs/asset-provenance.md). No image service is contacted by the website. The repository's image exception is limited to this deliberate artwork.

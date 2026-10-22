@@ -11,14 +11,14 @@
 body {
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
   font-optical-sizing:auto; line-height:1.5;
-  background:radial-gradient(ellipse at 7% 7%,#c7e0f4 0,transparent 34rem),radial-gradient(ellipse at 95% 26%,#d5e9df 0,transparent 32rem),radial-gradient(ellipse at 12% 68%,#dedcf4 0,transparent 35rem),var(--bg);
+  background:linear-gradient(145deg,#dfe8ec 0,var(--bg) 38%,#e8eeee 100%);
 }
 body.dark {
   --bg:#0c1827;--ink:#eff6ff;--muted:#b2c4d8;--line:#3a5068;
   --surface:#16273a;--tint:#20334a;--accent:#9fcaff;--orange:#80b7ff;
   --glass:rgba(29,48,69,.72);--glass-thick:rgba(23,41,62,.86);
   --glass-edge:rgba(190,218,255,.2);--shadow:0 12px 36px rgba(0,8,20,.22),inset 0 1px 0 var(--glass-edge);
-  background:radial-gradient(ellipse at 7% 7%,#173451 0,transparent 34rem),radial-gradient(ellipse at 95% 26%,#133d40 0,transparent 32rem),radial-gradient(ellipse at 12% 68%,#272d4f 0,transparent 35rem),var(--bg);
+  background:linear-gradient(145deg,#172b3b 0,var(--bg) 45%,#16272e 100%);
 }
 header {
   position:sticky;top:.8rem;z-index:20;min-height:4.6rem;
@@ -66,3 +66,9 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline-offset:3px}su
 @media(prefers-contrast:more){:root{--muted:#283c52;--line:#526b84}body.dark{--muted:#e3ecf6;--line:#aec1d7}}
 @media(prefers-reduced-motion:reduce){button,nav a{transition:none!important;transform:none!important}}
 .wordmark{min-height:2.75rem}
+
+/* Editorial refinement: the track image carries the visual identity. */
+:root{--radius:1.1rem;--shadow:0 6px 24px rgba(34,65,98,.045),inset 0 1px 0 var(--glass-edge)}
+header{border-radius:1.25rem;min-height:4.3rem}.hero{padding:3.1rem 0 2.5rem}.race-card{border-radius:1.35rem}.race-card:before{display:none}
+.stats article,.stats article:first-child,.pb{border-radius:1rem}.honesty{border-radius:1rem}.track-study{margin:0 0 2rem}.track-study img{display:block;width:100%;height:10rem;object-fit:cover;object-position:center 55%;border-radius:1rem}.track-study figcaption{display:flex;justify-content:space-between;gap:1rem;margin-top:.65rem;color:var(--muted);font: .58rem/1.6 ui-monospace,monospace;letter-spacing:.06em}
+@media(max-width:560px){header{border-radius:1rem}.hero{padding:2.4rem 0 2rem}.track-study img{height:8.5rem}.track-study figcaption{font-size:.5rem}.race-card{border-radius:1.2rem}}
