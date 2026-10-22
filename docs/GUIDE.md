@@ -208,3 +208,15 @@ The live plan now replaces the earlier qualitative intentions with three flexibl
 The plan is visible by default; only detailed recovery and weekly adjustment notes are folded away. Easy runs use conversational effort, approximately 3–4/10, not the race-target pace. Football counts as hard activity; skipping the second easy run and repeating a week are acceptable adjustments. The final window is an optional 2 km, rest, then race day if ready.
 
 This is a custom, conditional proposal based on the limited supplied recent training, not a compressed claim of readiness. The 52-day window is shorter than the 12-week beginner programmes provided by [Great Run](https://www.greatrun.org/train-and-prepare/training-plans/half-marathon-training-plan/). Rest-day guidance is informed by [NHS beginner running guidance](https://www.nhs.uk/better-health/get-active/get-running-with-couch-to-5k/). Reassess both race participation and the sub-6:00 goal using actual training and recovery. Historical PBs do not set current training pace.
+
+## Where records live and how the period views work
+
+**`data/logs.json` is the canonical public run history**, versioned in GitHub. The generated `assets/data.js` is a browser copy, not another database. Month/90-day filters never overwrite, delete, or summarize away those source records. Save only anonymous completed-run fields; all original dates, distances, durations, and efforts remain available for re-analysis. Back up the repository or download the JSON whenever desired.
+
+- **All time** includes the entire recorded history. Until race day its chart spans the original training window; after that it extends with the calendar. The top lifetime cards and latest-run card remain all-time context.
+- **Month** lets you choose any calendar month, including older months. Its chart shows each calendar day.
+- **90 days** uses the selected “Through” date and the preceding 89 calendar days, inclusive; its distance chart groups those days into seven-day buckets, with a shorter final bucket.
+- The small period summary, pace/distance chart, and expandable run table all use the selected period. Average pace is total duration divided by total distance, not the mean of individual paces. Missing entries are unlogged, not confirmed rest days. Empty periods show no invented average or trend.
+- Historical PBs and planned sessions are excluded from recorded totals. Run logging is allowed after race day; the race schedule and historical race result status remain separate from the growing record.
+
+The period calculations live in `assets/trends.js`. Verify date boundaries, leap months, same-day entries, weighted pace, and empty periods with `node --test tests/trends.test.cjs`. Browser preferences and period selection are not a backup: the repository is the saved record.

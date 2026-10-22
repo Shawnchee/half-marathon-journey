@@ -35,7 +35,7 @@ def build():
     require(isinstance(logs,list),'Logs must be an array.')
     for r in logs:
         keys(r,['date','distanceKm','durationSeconds','effort'])
-        require(date(j['startDate'])<=date(r['date'])<=date(j['raceDate']),'Log date is outside this journey.')
+        require(date(r['date'])>=date(j['startDate']),'Log date must be on or after the journey start; records can continue after race day.')
         require(date(r['date'])<=dt.date.today(),'Do not record future training as complete.')
         require(number(r['distanceKm']) and r['distanceKm']>0,'Distance must be a positive number.')
         require(type(r['durationSeconds']) is int and r['durationSeconds']>0,'Duration must be positive whole seconds.')
