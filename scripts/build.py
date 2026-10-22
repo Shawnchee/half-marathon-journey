@@ -58,10 +58,10 @@ def build():
         rows.append(f"| {r['date']} | {r['distanceKm']:.1f} km | {pace(p)} min/km | {pace(r['durationSeconds'])} | {r['effort']}/10 |")
     latest=max((r['date'] for r in logs),default='No entries')
     summary=f'**{total:.1f} km logged · {len(logs)} completed run'+('s' if len(logs)!=1 else '')+f' · Last entry: {latest}**\n\n'+'\n'.join(rows)
-    path=ROOT/'README.md'
-    if path.exists():
-        content=path.read_text()
-        content=re.sub(r'<!-- STATS:START -->.*?<!-- STATS:END -->','<!-- STATS:START -->\n'+summary+'\n<!-- STATS:END -->',content,flags=re.S)
-        path.write_text(content)
+    for path in [ROOT/'README.md', ROOT/'docs/GUIDE.md']:
+        if path.exists():
+            content=path.read_text()
+            content=re.sub(r'<!-- STATS:START -->.*?<!-- STATS:END -->','<!-- STATS:START -->\n'+summary+'\n<!-- STATS:END -->',content,flags=re.S)
+            path.write_text(content)
     print('Validated public data; refreshed assets/data.js and README statistics.')
 if __name__=='__main__': build()
