@@ -1,0 +1,18 @@
+# Local and sensitive files
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+*.gpx
+*.fit
+*.tcx
+*.kml
+*.heic
+*.jpg
+*.jpeg
+*.png
+*.zip
+private/
+work/
+node_modules/

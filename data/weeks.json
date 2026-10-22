@@ -1,0 +1,58 @@
+[
+  {
+    "startDate": "2026-10-22",
+    "endDate": "2026-10-28",
+    "title": "Find the rhythm",
+    "target": "Make room for easy running around football.",
+    "adjustment": "Keep the week flexible; the first 3 km is logged."
+  },
+  {
+    "startDate": "2026-10-29",
+    "endDate": "2026-11-04",
+    "title": "Repeat, then build",
+    "target": "Aim for a repeatable week of comfortable running.",
+    "adjustment": "Adjust the amount to recovery and football load."
+  },
+  {
+    "startDate": "2026-11-05",
+    "endDate": "2026-11-11",
+    "title": "Time on feet",
+    "target": "Consider a little more time on an easy outing if recovered.",
+    "adjustment": "Distance is optional; consistency is the target."
+  },
+  {
+    "startDate": "2026-11-12",
+    "endDate": "2026-11-18",
+    "title": "Settle into it",
+    "target": "Keep most running comfortable and leave room for recovery.",
+    "adjustment": "Football counts toward the week’s total effort."
+  },
+  {
+    "startDate": "2026-11-19",
+    "endDate": "2026-11-25",
+    "title": "Check in",
+    "target": "Review logged effort and how the longer outings feel.",
+    "adjustment": "Reassess the race target using current training, not old PBs."
+  },
+  {
+    "startDate": "2026-11-26",
+    "endDate": "2026-12-02",
+    "title": "Keep it sustainable",
+    "target": "Choose a manageable week based on recent recovery.",
+    "adjustment": "No last-minute distance catch-up."
+  },
+  {
+    "startDate": "2026-12-03",
+    "endDate": "2026-12-09",
+    "title": "Make some space",
+    "target": "Reduce training load and prioritize feeling rested.",
+    "adjustment": "Keep football flexible too."
+  },
+  {
+    "startDate": "2026-12-10",
+    "endDate": "2026-12-13",
+    "title": "Arrive fresh",
+    "target": "Keep any running light and optional before race day.",
+    "adjustment": "Race result stays unreported until a result is supplied."
+  }
+]

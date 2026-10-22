@@ -1,0 +1,21 @@
+{
+  "title": "The road to 21.1",
+  "startDate": "2026-10-22",
+  "raceDate": "2026-12-13",
+  "raceDistanceKm": 21.0975,
+  "targetPaceSecondsPerKm": 360,
+  "targetQualifier": "strictly-under",
+  "historicalBests": [
+    {
+      "distanceKm": 5,
+      "paceSecondsPerKm": 292,
+      "when": "Last year"
+    },
+    {
+      "distanceKm": 10,
+      "paceSecondsPerKm": 363,
+      "when": "Last year",
+      "longestReported": true
+    }
+  ]
+}
