@@ -3,23 +3,32 @@
     "startDate": "2026-10-22",
     "endDate": "2026-10-28",
     "title": "Settle in",
-    "target": "Three flexible easy-run slots; use conversational effort (about 3\u20134/10), with walking breaks whenever needed.",
-    "adjustment": "Includes the completed 3 km on 22 Oct; the other sessions remain planned.",
+    "target": "Two priority runs: Easy 1 and the longer run. Easy 2 is optional when recovered.",
+    "adjustment": "Easy 1 includes the completed 3 km on 22 Oct, recorded at its actual 6:46/km. The pace guide applies to future runs; it does not relabel that result.",
     "sessions": [
       {
         "kind": "Easy 1",
         "minKm": 3,
-        "maxKm": 3
+        "maxKm": 3,
+        "optional": false,
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 450
       },
       {
         "kind": "Easy 2",
-        "minKm": 3,
-        "maxKm": 3
+        "minKm": 0,
+        "maxKm": 0,
+        "optional": true,
+        "paceMinSecondsPerKm": null,
+        "paceMaxSecondsPerKm": null
       },
       {
         "kind": "Long easy",
         "minKm": 4,
-        "maxKm": 4
+        "maxKm": 5,
+        "optional": false,
+        "paceMinSecondsPerKm": 420,
+        "paceMaxSecondsPerKm": 465
       }
     ]
   },
@@ -27,23 +36,32 @@
     "startDate": "2026-10-29",
     "endDate": "2026-11-04",
     "title": "Build consistency",
-    "target": "Three flexible easy-run slots; use conversational effort (about 3\u20134/10), with walking breaks whenever needed.",
-    "adjustment": "Progress only if week 1 felt comfortable and recovery is normal.",
+    "target": "Two priority runs: Easy 1 and the longer run. Easy 2 is optional when recovered.",
+    "adjustment": "Choose the lower distance first. Repeat week 1 if recovery or football load makes this feel too much.",
     "sessions": [
       {
         "kind": "Easy 1",
         "minKm": 3,
-        "maxKm": 3
+        "maxKm": 4,
+        "optional": false,
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 450
       },
       {
         "kind": "Easy 2",
-        "minKm": 3,
-        "maxKm": 3
+        "minKm": 2,
+        "maxKm": 3,
+        "optional": true,
+        "paceMinSecondsPerKm": 420,
+        "paceMaxSecondsPerKm": 465
       },
       {
         "kind": "Long easy",
         "minKm": 5,
-        "maxKm": 5
+        "maxKm": 6,
+        "optional": false,
+        "paceMinSecondsPerKm": 420,
+        "paceMaxSecondsPerKm": 465
       }
     ]
   },
@@ -51,23 +69,32 @@
     "startDate": "2026-11-05",
     "endDate": "2026-11-11",
     "title": "Extend gently",
-    "target": "Three flexible easy-run slots; use conversational effort (about 3\u20134/10), with walking breaks whenever needed.",
-    "adjustment": "Repeat the previous week if the longer run or football left lingering fatigue.",
+    "target": "Two priority runs: Easy 1 and the longer run. Easy 2 is optional when recovered.",
+    "adjustment": "Increase only after a comfortable previous longer run and normal recovery. Otherwise repeat the previous week.",
     "sessions": [
       {
         "kind": "Easy 1",
-        "minKm": 3,
-        "maxKm": 3
+        "minKm": 4,
+        "maxKm": 4,
+        "optional": false,
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 450
       },
       {
         "kind": "Easy 2",
-        "minKm": 4,
-        "maxKm": 4
+        "minKm": 2,
+        "maxKm": 3,
+        "optional": true,
+        "paceMinSecondsPerKm": 420,
+        "paceMaxSecondsPerKm": 465
       },
       {
         "kind": "Long easy",
         "minKm": 6,
-        "maxKm": 6
+        "maxKm": 7,
+        "optional": false,
+        "paceMinSecondsPerKm": 420,
+        "paceMaxSecondsPerKm": 465
       }
     ]
   },
@@ -75,23 +102,32 @@
     "startDate": "2026-11-12",
     "endDate": "2026-11-18",
     "title": "Recovery week",
-    "target": "Three flexible easy-run slots; use conversational effort (about 3\u20134/10), with walking breaks whenever needed.",
-    "adjustment": "A lighter week. Do not catch up on missed kilometres.",
+    "target": "Two priority runs: Easy 1 and the longer run. Easy 2 is optional when recovered.",
+    "adjustment": "Lighter week: omit Easy 2. Do not make up missed distance.",
     "sessions": [
       {
         "kind": "Easy 1",
         "minKm": 3,
-        "maxKm": 3
+        "maxKm": 4,
+        "optional": false,
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 450
       },
       {
         "kind": "Easy 2",
-        "minKm": 3,
-        "maxKm": 3
+        "minKm": 0,
+        "maxKm": 0,
+        "optional": true,
+        "paceMinSecondsPerKm": null,
+        "paceMaxSecondsPerKm": null
       },
       {
         "kind": "Long easy",
         "minKm": 5,
-        "maxKm": 5
+        "maxKm": 6,
+        "optional": false,
+        "paceMinSecondsPerKm": 420,
+        "paceMaxSecondsPerKm": 465
       }
     ]
   },
@@ -99,23 +135,32 @@
     "startDate": "2026-11-19",
     "endDate": "2026-11-25",
     "title": "Check endurance",
-    "target": "Three flexible easy-run slots; use conversational effort (about 3\u20134/10), with walking breaks whenever needed.",
-    "adjustment": "Choose 7 km first; 8 km is optional only if recovered. Reassess the race goal.",
+    "target": "Two priority runs: Easy 1 and the longer run. Easy 2 is optional when recovered.",
+    "adjustment": "Use 8 km first. Reassess the race goal using current training, not last year’s PBs.",
     "sessions": [
       {
         "kind": "Easy 1",
         "minKm": 4,
-        "maxKm": 4
+        "maxKm": 5,
+        "optional": false,
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 450
       },
       {
         "kind": "Easy 2",
-        "minKm": 4,
-        "maxKm": 4
+        "minKm": 2,
+        "maxKm": 3,
+        "optional": true,
+        "paceMinSecondsPerKm": 420,
+        "paceMaxSecondsPerKm": 465
       },
       {
         "kind": "Long easy",
-        "minKm": 7,
-        "maxKm": 8
+        "minKm": 8,
+        "maxKm": 9,
+        "optional": false,
+        "paceMinSecondsPerKm": 420,
+        "paceMaxSecondsPerKm": 465
       }
     ]
   },
@@ -123,23 +168,32 @@
     "startDate": "2026-11-26",
     "endDate": "2026-12-02",
     "title": "Longest training outing",
-    "target": "Three flexible easy-run slots; use conversational effort (about 3\u20134/10), with walking breaks whenever needed.",
-    "adjustment": "Use the lower end first. This does not establish readiness for 21.1 km.",
+    "target": "Two priority runs: Easy 1 and the longer run. Easy 2 is optional when recovered.",
+    "adjustment": "10–12 km is conditional on a comfortable 8–9 km outing and normal recovery. Choose 10 km first; do not force 12 km. This is not proof of half-marathon readiness.",
     "sessions": [
       {
         "kind": "Easy 1",
         "minKm": 4,
-        "maxKm": 4
+        "maxKm": 5,
+        "optional": false,
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 450
       },
       {
         "kind": "Easy 2",
-        "minKm": 4,
-        "maxKm": 4
+        "minKm": 2,
+        "maxKm": 3,
+        "optional": true,
+        "paceMinSecondsPerKm": 420,
+        "paceMaxSecondsPerKm": 465
       },
       {
         "kind": "Long easy",
-        "minKm": 9,
-        "maxKm": 10
+        "minKm": 10,
+        "maxKm": 12,
+        "optional": false,
+        "paceMinSecondsPerKm": 420,
+        "paceMaxSecondsPerKm": 465
       }
     ]
   },
@@ -147,23 +201,32 @@
     "startDate": "2026-12-03",
     "endDate": "2026-12-09",
     "title": "Ease down",
-    "target": "Three flexible easy-run slots; use conversational effort (about 3\u20134/10), with walking breaks whenever needed.",
-    "adjustment": "Keep every session comfortable; prioritize recovery over extra distance.",
+    "target": "Two priority runs: Easy 1 and the longer run. Easy 2 is optional when recovered.",
+    "adjustment": "Taper: keep runs relaxed and omit Easy 2. Reduce further if fatigued.",
     "sessions": [
       {
         "kind": "Easy 1",
         "minKm": 3,
-        "maxKm": 3
+        "maxKm": 4,
+        "optional": false,
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 450
       },
       {
         "kind": "Easy 2",
-        "minKm": 3,
-        "maxKm": 3
+        "minKm": 0,
+        "maxKm": 0,
+        "optional": true,
+        "paceMinSecondsPerKm": null,
+        "paceMaxSecondsPerKm": null
       },
       {
         "kind": "Long easy",
         "minKm": 6,
-        "maxKm": 6
+        "maxKm": 8,
+        "optional": false,
+        "paceMinSecondsPerKm": 420,
+        "paceMaxSecondsPerKm": 465
       }
     ]
   },
@@ -171,23 +234,32 @@
     "startDate": "2026-12-10",
     "endDate": "2026-12-13",
     "title": "Race window",
-    "target": "Optional short easy run, rest, then race day if ready.",
-    "adjustment": "Optional 2 km easy on 10 or 11 Dec; rest on 12 Dec. Race 13 Dec only if ready; pace and participation remain reassessable.",
+    "target": "Optional short easy run, rest, then race day only if ready.",
+    "adjustment": "Optional 2–3 km on 10 or 11 Dec; rest on 12 Dec. On 13 Dec, use the race-goal pace only if current readiness supports it. Reassess pace or participation otherwise.",
     "sessions": [
       {
         "kind": "Easy 1",
         "minKm": 2,
-        "maxKm": 2
+        "maxKm": 3,
+        "optional": true,
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 450
       },
       {
         "kind": "Easy 2",
         "minKm": 0,
-        "maxKm": 0
+        "maxKm": 0,
+        "optional": true,
+        "paceMinSecondsPerKm": null,
+        "paceMaxSecondsPerKm": null
       },
       {
         "kind": "Race",
         "minKm": 21.0975,
-        "maxKm": 21.0975
+        "maxKm": 21.0975,
+        "optional": false,
+        "paceMinSecondsPerKm": 355,
+        "paceMaxSecondsPerKm": 359
       }
     ]
   }

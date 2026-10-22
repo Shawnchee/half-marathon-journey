@@ -26,9 +26,17 @@
    const row=el('tr');const window=el('th');window.scope='row';
    window.append(el('strong',date(w.startDate)+' – '+date(w.endDate)),el('small','Week '+(i+1)));
    row.append(window);
-   w.sessions.forEach(session=>row.append(el('td',session.kind==='Race'?'Race · 21.1 km':range(session.minKm,session.maxKm))));
-   const low=w.sessions.reduce((sum,s)=>sum+s.minKm,0),high=w.sessions.reduce((sum,s)=>sum+s.maxKm,0);
-   row.append(el('td',i===7?'2 km + race':range(low,high)));
+   w.sessions.forEach(session=>{
+    const cell=el('td'),rest=session.maxKm===0;
+    cell.append(el('span',session.kind==='Race'?'Race · 21.1 km':range(session.minKm,session.maxKm),'session-distance'));
+    if(!rest)cell.append(el('small',(session.kind==='Race'?'Goal ':'')+pace(session.paceMinSecondsPerKm)+'–'+pace(session.paceMaxSecondsPerKm)+'/km','session-pace'));
+    if(session.optional&&!rest)cell.append(el('small','Optional','session-optional'));
+    row.append(cell);
+   });
+   const core=w.sessions.filter(s=>!s.optional),extra=w.sessions.filter(s=>s.optional&&s.maxKm>0);
+   const totalCell=el('td');totalCell.append(el('span',i===7?'Race':range(core.reduce((n,s)=>n+s.minKm,0),core.reduce((n,s)=>n+s.maxKm,0))));
+   if(extra.length)totalCell.append(el('small','+ '+range(extra.reduce((n,s)=>n+s.minKm,0),extra.reduce((n,s)=>n+s.maxKm,0))+' optional','session-optional'));
+   row.append(totalCell);
    if(now>=w.startDate&&now<=w.endDate)row.className='current-week';
    $('plan-rows').append(row);
    const note=el('li');note.append(el('strong','W'+(i+1)+' · '+w.title+': '),document.createTextNode(w.adjustment));$('plan-adjustments').append(note);

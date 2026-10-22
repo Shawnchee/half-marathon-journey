@@ -220,3 +220,9 @@ This is a custom, conditional proposal based on the limited supplied recent trai
 - Historical PBs and planned sessions are excluded from recorded totals. Run logging is allowed after race day; the race schedule and historical race result status remain separate from the growing record.
 
 The period calculations live in `assets/trends.js`. Verify date boundaries, leap months, same-day entries, weighted pace, and empty periods with `node --test tests/trends.test.cjs`. Browser preferences and period selection are not a backup: the repository is the saved record.
+
+## Pace guides and two-priority-run revision
+
+Each session in `data/weeks.json` now has `paceMinSecondsPerKm`, `paceMaxSecondsPerKm`, and an `optional` flag. The weekly table shows the guide under its distance. Rest slots have null pace values. Easy 1 starts at 6:50–7:30/km; optional Easy 2 and longer easy runs start at 7:00–7:45/km. These are rough starting estimates from the sole recent 22 October run, not tested pace zones. Comfortable conversation and easy effort override the numeric range; slower running or walking is acceptable. The displayed race goal of 5:55–5:59/km is conditional on readiness, not a current race prescription.
+
+The revised draft uses Easy 1 plus a longer run as the priorities; Easy 2 is optional. Core totals exclude the optional slot, whose distance appears separately. It includes a lighter week and taper, with a conditional 10–12 km peak rather than forcing a much longer outing from the limited recent baseline. The completed 3 km remains recorded at its supplied actual pace of 6:46/km. Planned paces never rewrite logged performances or guarantee readiness for 21.1 km.

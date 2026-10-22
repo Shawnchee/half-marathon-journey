@@ -50,8 +50,11 @@ def build():
             require(isinstance(w[field],str) and 0<len(w[field])<=300,'Use short, anonymous plan text.')
         require(isinstance(w['sessions'],list) and len(w['sessions'])==3,'Each week needs three flexible session slots.')
         for session in w['sessions']:
-            keys(session,['kind','minKm','maxKm'])
+            keys(session,['kind','minKm','maxKm','optional','paceMinSecondsPerKm','paceMaxSecondsPerKm'])
             require(session['kind'] in ['Easy 1','Easy 2','Long easy','Race'],'Invalid session label.')
+            require(type(session['optional']) is bool,'Optional-session status must be true or false.')
+            lo,hi=session['paceMinSecondsPerKm'],session['paceMaxSecondsPerKm']
+            require((lo is None and hi is None and session['maxKm']==0) or (type(lo) is int and type(hi) is int and 180<=lo<=hi<=900),'Use valid pace guides in seconds per kilometre, or null for rest.')
             require(number(session['minKm']) and number(session['maxKm']) and 0<=session['minKm']<=session['maxKm']<=21.0975,'Invalid planned distance range.')
         previous=date(w['endDate'])
     require(previous==date(j['raceDate']),'Weekly windows must end on race day.')
