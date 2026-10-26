@@ -39,43 +39,52 @@ The original dates, performance records, race target, and planned distances are 
 No AI- or creator-generated schedule can promise this race goal from the limited current baseline. Stop and reassess for worsening pain; seek appropriate help for concerning symptoms.
 
 
-## Current decision: football paused, three-run build
+## Current decision: revised after capacity clarification
 
-This section supersedes the earlier two-priority-run draft. The user has chosen to skip football. The user has confirmed that **13 December is fixed**, with the pace goal to be assessed during training. The goal means **under 6:00 min/km for the half marathon**, not a six-kilometre race. The only recent recorded performance remains the 22 October 3 km; historical PBs are not current fitness tests.
+This section supersedes the earlier two-run draft and the subsequently over-cautious three-run progression. The runner clarified that **3 km was a chosen distance**, with comfortable running around 6:30/km and capacity to continue. That is qualitative context, not a newly completed workout or measured endurance test. The sole logged run remains 22 October: 3 km, 20:18, 6:46/km, effort 4/10. Historical bests remain historical. Football is paused; **13 December is fixed**.
 
-**Recommendation:** establish three separated easy outings and assess the sub-6:00/km target from actual training. Keep the confirmed 13 December race date. A longer preparation period would allow more endurance development, but no date change is assumed. There are 48 days from this review to the event. More available training days cannot establish tissue tolerance or endurance on a deadline. No specific finish time can be predicted from the current record.
+The previous 4.8 km peak treated limited records too much like limited capacity. The revised proposal develops endurance with three runs, one lighter week, optional controlled pace within the second run, and a taper. It still cannot establish current long-run tolerance from a chat statement or guarantee sub-6:00/km.
 
-### Current working targets
+### Current conditional schedule
 
-| Window | Easy 1 | Easy 2 | Longer easy |
-| --- | --- | --- | --- |
-| 22–28 Oct | 3 km, includes logged run | 2 km | 3–3.3 km |
-| 29 Oct–4 Nov | 3 km | 2–2.5 km | 3.3–3.6 km |
-| 5–11 Nov | 3–3.5 km | 2.5–3 km | 3.6–4 km |
-| 12–18 Nov | 3 km | 2–2.5 km | 3–3.5 km |
-| 19–25 Nov | 3–3.5 km | 2.5–3 km | 4–4.4 km |
-| 26 Nov–2 Dec | 3.5–4 km | 3 km | 4.4–4.8 km |
-| 3–9 Dec | 3 km | 2–3 km | 3–4 km; review event decision |
-| 10–13 Dec | Optional 2–3 km on 10 or 11 Dec | Rest | Event only if independently supported by actual preparation |
+| Window | Easy 1 | Easy 2 / controlled | Long easy | Total |
+| --- | --- | --- | --- | --- |
+| 22–28 Oct | 3 km, includes logged run | 3–4 km easy | 4–6 km | 10–13 km |
+| 29 Oct–4 Nov | 4–5 km | 4–5 km easy | 6–8 km | 14–18 km |
+| 5–11 Nov | 5 km | 5–6 km; optional 3 × 3 min | 8–10 km | 18–21 km |
+| 12–18 Nov | 4 km | 4–5 km easy | 7–8 km | 15–17 km |
+| 19–25 Nov | 5–6 km | 6–7 km; optional 2 × 8 min | 10–12 km | 21–25 km |
+| 26 Nov–2 Dec | 5–6 km | 6–7 km; hold pace volume steady or all easy | 12–14 km | 23–27 km |
+| 3–9 Dec | 4–5 km | 4–5 km; optional 2 × 3 min | 7–8 km | 15–18 km |
+| 10–13 Dec | Optional 2–3 km on 10 or 11 Dec | Rest | 13 Dec event if ready | Race separate from training |
 
-These are conservative **starting assumptions**, not an assessment that the runner's maximum is 3 km. They deliberately do not force long distances from an unestablished recent base. Do not jump ahead by date: repeat or reduce if the preceding distance was not comfortably completed. Logs can support revising this draft upward or downward. Do not cram runs into the first partial week.
+Start the next longer outing with 4 km, extending toward 5–6 only while truly comfortable. This is an easy session, not a maximal capacity test. Choose the lower range first, and advance only after the preceding distance was comfortable with normal next-day recovery. The ranges are alternatives, not instructions to jump between consecutive upper limits. Repeat or reduce if recovery is poor, and re-plan from the actual logs. Do not cram the first window's remaining runs into its last days.
 
-Easy 1 and Easy 2: provisional **6:50–7:45/km**. Longer easy: **7:00–8:00/km**. Conversational effort, approximately 3–4/10, overrides these ranges; slower or walking is fine. These are coaching estimates, not laboratory-derived zones. Leave at least one non-running day between sessions. No prescribed fast intervals at this stage. Light familiar strength can fit after an easy run, without creating another hard day.
+Easy guide: **6:40–7:20/km**. Longer easy: **6:50–7:40/km**. These are provisional coaching estimates, not measured zones. Comfortable conversation and effort about 3–4/10 override the numbers; heat, hills or fatigue may require slower running or walking. No need to force slower running solely to meet a number if effort is genuinely easy.
 
-### Why this is evidence-informed
+### Controlled pace instructions
 
-A prospective observational cohort of 5,205 runners associated single-session distance spikes beyond 10% of the longest outing in the previous 30 days with higher overuse-injury rates. It did **not** establish that increases below 10% are safe, that 10% weekly increases prevent injury, or that this runner must follow an exact percentage. The study population and self-reported injuries limit individual prediction. The practical choice here is cautious steps and recovery review, rather than a sudden 3-to-10 or 10-to-21 km jump. The exact distances in this table are our proposal, not a published or validated protocol. [Original BJSM study](https://bjsm.bmj.com/content/59/17/1203.long).
+These replace part of Easy 2 and are included in its total distance. Begin and end easily; recovery running is also included. Leave a non-running day between runs and at least 48 hours between pace work and the longer outing. Most running stays easy. No fast finish on long runs.
 
-The [CDC talk test](https://www.cdc.gov/physical-activity-basics/measuring/) supports assessing effort through breathing and conversation. Rest between beginner running sessions is consistent with [NHS guidance](https://www.nhs.uk/better-health/get-active/get-running-with-couch-to-5k/). Neither source validates these exact pace ranges.
+- Week 3: only after two consistent comfortable weeks, optional 3 × 3 minutes at 6:00–6:10/km, with 2 minutes easy between.
+- Week 4: no pace work.
+- Weeks 5–6: optional 2 × 8 minutes at 5:55–6:05/km, with 3 minutes easy between. Do not increase pace-work volume during the peak long-run week; use all-easy running if recovery is uncertain.
+- Week 7: optional 2 × 3 minutes near 5:55–6:00/km, with 2 minutes easy between. Finish fresh.
 
-For context, the [B.A.A. first-half-marathon programme](https://www.baa.org/races/boston-half/info-for-athletes/boston-half-training/) spans 12 weeks and assumes a greater starting running base. This journal does not copy that schedule or suggest its duration alone guarantees readiness. A base-building phase may be needed before an individualised half-marathon block.
+The blocks should feel controlled, at most approximately 5–6/10, rather than a time trial. Stop chasing the stated pace if it feels strained. If the base is inconsistent or the previous longer run has not been well absorbed, omit the blocks and keep the whole session easy. These short blocks cannot prove 21.1 km pace endurance.
 
-### Route toward a better-supported time goal
+### Race assessment
 
-1. Establish a repeatable three-run routine with normal recovery. Review the first two new logged weeks rather than extrapolating from last year's PBs.
-2. Build comfortable endurance over additional weeks or months. Once ready for a half-marathon block, progressively longer outings toward roughly 14–16 km are a useful coaching aim, not an admission test or guarantee; longer runs should not dominate an otherwise tiny weekly load. Include lighter weeks and a taper.
-3. Only after a stable base, replace one easy run with modest controlled goal-pace practice, initially short repetitions around 5:55–6:00/km with easy recovery. Warm-up and cool-down count toward the session total. Keep the longer run easy, and do not add speed and distance simultaneously. No such workout is prescribed now from the limited baseline.
-4. Review recent sustained pace, endurance, recovery, weather and course together before selecting race pace. Completing a short goal-pace session alone does not predict holding it for 21.1 km. The relevant goal is the whole race average below 6:00/km; do not bank time with a fast start.
-5. At the 25 November checkpoint, assess the pace goal for the fixed 13 December race using logged consistency, comfortable longer outings, recovery and any goal-pace practice justified by the base. Do not treat these as a validated pass/fail formula. Revise race pace if sub-6:00/km is unsupported, then reassess nearer race day and for conditions. Separately, if endurance or health does not support starting, reassess participation: slowing down or using run/walk is not automatic clearance for an underprepared half marathon.
+Review by **25 November**: consistent completed training, comfortable longer running around 10–12 km if reached without forcing progression, controlled pace exposure, and recovery together. These are practical coaching checks, not validated clearance criteria. Review again after the peak outing, ideally around 28–30 November, and before race day. Do not force 14 km if 10–12 km has not been comfortable. No 16–21 km rehearsal is required by this draft.
 
-For future longer outings, retain the earlier heat and fuelling guidance above. Stop for worsening pain or altered gait and reassess before continuing. No additional completed runs have been added, no race date changed, and no outcome promised.
+Keep the date fixed. Sub-6:00/km (roughly under 2:06:35 for 21.0975 km) remains a target, not a forecast. If training does not support it, revise the race pace. Separately, insufficient endurance, pain or illness may require reassessing whether to start; slower pacing and run/walk are not automatic clearance. Do not bank time with an aggressive start.
+
+### Evidence and limits
+
+The [Hal Higdon beginner programme](https://www.halhigdon.com/training-programs/half-marathon-training/novice-1-half-marathon/) provides context: it uses a longer 12-week preparation period and builds to a 10-mile long run. We have not copied or compressed that schedule. This shorter custom proposal has less preparation time, an unverified recent running base and conditional targets. It is not a scientifically validated individual prescription.
+
+The [prospective BJSM cohort of 5,205 runners](https://bjsm.bmj.com/content/59/17/1203.long) associated abrupt single-session distance increases with higher overuse-injury rates. It did not prove that any fixed percentage guarantees safety or that weekly 10% increments are mandatory. That informs checking the actual recent longer outing and recovery before extending, rather than treating a selected 3 km as a maximum or treating easy breathing as proof of tissue tolerance. The exact distances in this table are coaching choices, not study-derived thresholds. Some proposed increases can still be substantial; the calendar does not justify forcing them.
+
+[NHS beginner guidance](https://www.nhs.uk/better-health/get-active/get-running-with-couch-to-5k/) supports leaving rest days between runs. The [CDC talk test](https://www.cdc.gov/physical-activity-basics/measuring/) supports using breathing and conversation to assess relative effort. Neither validates these exact paces or proves half-marathon readiness.
+
+Retain the earlier heat and fuelling advice above. For longer outings, practise familiar carbohydrate and fluid intake; [AIS guidance](https://www.ausport.gov.au/ais/nutrition/supplements/group_a/sports-foods2/sports-drink/how-and-when-do-i-use-it) gives a general 30–60 g carbohydrate/hour range for 1–2.5-hour endurance exercise, adjusted for tolerance. Add only familiar light strength work if it does not compromise recovery. Stop for worsening pain or altered gait. No new completed runs, exact historical dates, locations or identifiers have been added.

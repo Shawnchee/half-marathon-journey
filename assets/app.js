@@ -30,6 +30,7 @@
     const cell=el('td'),rest=session.maxKm===0;
     cell.append(el('span',session.kind==='Race'?'Event goal · 21.1 km':range(session.minKm,session.maxKm),'session-distance'));
     if(!rest)cell.append(el('small',(session.kind==='Race'?'Goal ':'')+pace(session.paceMinSecondsPerKm)+'–'+pace(session.paceMaxSecondsPerKm)+'/km','session-pace'));
+    if(session.note&&!rest)cell.append(el('small',session.note,'session-note'));
     if(session.optional&&!rest)cell.append(el('small','Optional','session-optional'));
     row.append(cell);
    });

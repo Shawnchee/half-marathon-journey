@@ -2,248 +2,270 @@
   {
     "startDate": "2026-10-22",
     "endDate": "2026-10-28",
-    "title": "Establish the routine",
-    "target": "Three easy runs, with at least one non-running day between them. No football; repeat or reduce when needed.",
-    "adjustment": "Includes the completed 22 Oct 3 km. Only two outings remain; do not squeeze them in to meet the calendar. Use 3 km again before extending. Leave a rest day between runs.",
+    "title": "Confirm the easy base",
+    "target": "Three runs with a non-running day between them; no football. Distances are conditional on comfortable completion and recovery.",
+    "adjustment": "Includes the completed 22 Oct 3 km. Next longer outing: start with 4 km; extend toward 5–6 only while genuinely comfortable. No catch-up runs in this partial week.",
     "sessions": [
       {
         "kind": "Easy 1",
         "minKm": 3,
         "maxKm": 3,
         "optional": false,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": ""
       },
       {
         "kind": "Easy 2",
-        "minKm": 2,
-        "maxKm": 2,
+        "minKm": 3,
+        "maxKm": 4,
         "optional": false,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": ""
       },
       {
         "kind": "Long easy",
-        "minKm": 3,
-        "maxKm": 3.3,
+        "minKm": 4,
+        "maxKm": 6,
         "optional": false,
-        "paceMinSecondsPerKm": 420,
-        "paceMaxSecondsPerKm": 480
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 460,
+        "note": ""
       }
     ]
   },
   {
     "startDate": "2026-10-29",
     "endDate": "2026-11-04",
-    "title": "Repeat comfortably",
-    "target": "Three easy runs, with at least one non-running day between them. No football; repeat or reduce when needed.",
-    "adjustment": "Aim for three separated easy outings. Use the lower distance first. Advance only after the previous longer outing felt comfortable and recovery was normal the following day.",
+    "title": "Build a repeatable week",
+    "target": "Three runs with a non-running day between them; no football. Distances are conditional on comfortable completion and recovery.",
+    "adjustment": "Use lower distances first. Extend only from what was comfortably completed, with normal next-day recovery. If 4–6 km was difficult, repeat that distance rather than aiming for 8.",
     "sessions": [
       {
         "kind": "Easy 1",
-        "minKm": 3,
-        "maxKm": 3,
+        "minKm": 4,
+        "maxKm": 5,
         "optional": false,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": ""
       },
       {
         "kind": "Easy 2",
-        "minKm": 2,
-        "maxKm": 2.5,
+        "minKm": 4,
+        "maxKm": 5,
         "optional": false,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": ""
       },
       {
         "kind": "Long easy",
-        "minKm": 3.3,
-        "maxKm": 3.6,
+        "minKm": 6,
+        "maxKm": 8,
         "optional": false,
-        "paceMinSecondsPerKm": 420,
-        "paceMaxSecondsPerKm": 480
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 460,
+        "note": ""
       }
     ]
   },
   {
     "startDate": "2026-11-05",
     "endDate": "2026-11-11",
-    "title": "Small endurance step",
-    "target": "Three easy runs, with at least one non-running day between them. No football; repeat or reduce when needed.",
-    "adjustment": "Keep all three runs conversational. This is endurance building, not a speed test. If fatigue persists, repeat the last comfortable week instead of advancing.",
+    "title": "Introduce controlled rhythm",
+    "target": "Three runs with a non-running day between them; no football. Distances are conditional on comfortable completion and recovery.",
+    "adjustment": "Long run stays easy. Goal-pace practice is optional, only after two consistent, comfortable weeks. Leave at least 48 hours between pace practice and the longer run.",
     "sessions": [
       {
         "kind": "Easy 1",
-        "minKm": 3,
-        "maxKm": 3.5,
+        "minKm": 5,
+        "maxKm": 5,
         "optional": false,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": ""
       },
       {
         "kind": "Easy 2",
-        "minKm": 2.5,
-        "maxKm": 3,
+        "minKm": 5,
+        "maxKm": 6,
         "optional": false,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": "Optional within total: 3 × 3 min at 6:00–6:10/km; 2 min easy between. Easy warm-up/cool-down."
       },
       {
         "kind": "Long easy",
-        "minKm": 3.6,
-        "maxKm": 4,
+        "minKm": 8,
+        "maxKm": 10,
         "optional": false,
-        "paceMinSecondsPerKm": 420,
-        "paceMaxSecondsPerKm": 480
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 460,
+        "note": ""
       }
     ]
   },
   {
     "startDate": "2026-11-12",
     "endDate": "2026-11-18",
-    "title": "Absorb the training",
-    "target": "Three easy runs, with at least one non-running day between them. No football; repeat or reduce when needed.",
-    "adjustment": "Lighter week: keep the routine but reduce distance. Skip a run if needed. No catch-up kilometres, hard intervals, or football.",
+    "title": "Lighter week",
+    "target": "Three runs with a non-running day between them; no football. Distances are conditional on comfortable completion and recovery.",
+    "adjustment": "Reduce volume and absorb training. All runs easy. Repeat or reduce further if unusually tired; no missed-distance catch-up.",
     "sessions": [
       {
         "kind": "Easy 1",
-        "minKm": 3,
-        "maxKm": 3,
+        "minKm": 4,
+        "maxKm": 4,
         "optional": false,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": ""
       },
       {
         "kind": "Easy 2",
-        "minKm": 2,
-        "maxKm": 2.5,
+        "minKm": 4,
+        "maxKm": 5,
         "optional": false,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": ""
       },
       {
         "kind": "Long easy",
-        "minKm": 3,
-        "maxKm": 3.5,
+        "minKm": 7,
+        "maxKm": 8,
         "optional": false,
-        "paceMinSecondsPerKm": 420,
-        "paceMaxSecondsPerKm": 480
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 460,
+        "note": ""
       }
     ]
   },
   {
     "startDate": "2026-11-19",
     "endDate": "2026-11-25",
-    "title": "Review current fitness",
-    "target": "Three easy runs, with at least one non-running day between them. No football; repeat or reduce when needed.",
-    "adjustment": "25 Nov pace checkpoint for the fixed 13 Dec race: review logged consistency, endurance and recovery. Keep sub-6:00/km only if supported; otherwise revise race pace. This conservative build alone does not establish 21.1 km readiness.",
+    "title": "Endurance and pace review",
+    "target": "Three runs with a non-running day between them; no football. Distances are conditional on comfortable completion and recovery.",
+    "adjustment": "25 Nov checkpoint: review longer-run comfort, consistency, controlled pace and recovery together. Do not infer half-marathon readiness from a few fast kilometres. Keep the long run easy.",
     "sessions": [
       {
         "kind": "Easy 1",
-        "minKm": 3,
-        "maxKm": 3.5,
+        "minKm": 5,
+        "maxKm": 6,
         "optional": false,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": ""
       },
       {
         "kind": "Easy 2",
-        "minKm": 2.5,
-        "maxKm": 3,
+        "minKm": 6,
+        "maxKm": 7,
         "optional": false,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": "Optional within total: 2 × 8 min at 5:55–6:05/km; 3 min easy between. Keep the rest easy."
       },
       {
         "kind": "Long easy",
-        "minKm": 4,
-        "maxKm": 4.4,
+        "minKm": 10,
+        "maxKm": 12,
         "optional": false,
-        "paceMinSecondsPerKm": 420,
-        "paceMaxSecondsPerKm": 480
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 460,
+        "note": ""
       }
     ]
   },
   {
     "startDate": "2026-11-26",
     "endDate": "2026-12-02",
-    "title": "Build without rushing",
-    "target": "Three easy runs, with at least one non-running day between them. No football; repeat or reduce when needed.",
-    "adjustment": "Extend only from a recently completed comfortable distance. A race approaching is not a reason to jump to 12–16 km. Reassess the plan from actual new logs, not last year’s 10 km.",
+    "title": "Peak endurance, not speed",
+    "target": "Three runs with a non-running day between them; no football. Distances are conditional on comfortable completion and recovery.",
+    "adjustment": "Aim for the longer run around 28–30 Nov, after a comfortable 10–12 km. Choose 12 first; 14 only if well recovered. Do not force 16–21 km. Hold pace-work volume steady or run Easy 2 entirely easy.",
     "sessions": [
       {
         "kind": "Easy 1",
-        "minKm": 3.5,
-        "maxKm": 4,
+        "minKm": 5,
+        "maxKm": 6,
         "optional": false,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": ""
       },
       {
         "kind": "Easy 2",
-        "minKm": 3,
-        "maxKm": 3,
+        "minKm": 6,
+        "maxKm": 7,
         "optional": false,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": "If recovering well, repeat 2 × 8 min at 5:55–6:05/km with 3 min easy; otherwise all easy."
       },
       {
         "kind": "Long easy",
-        "minKm": 4.4,
-        "maxKm": 4.8,
+        "minKm": 12,
+        "maxKm": 14,
         "optional": false,
-        "paceMinSecondsPerKm": 420,
-        "paceMaxSecondsPerKm": 480
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 460,
+        "note": ""
       }
     ]
   },
   {
     "startDate": "2026-12-03",
     "endDate": "2026-12-09",
-    "title": "Race decision",
-    "target": "Three easy runs, with at least one non-running day between them. No football; repeat or reduce when needed.",
-    "adjustment": "13 Dec remains fixed. Review pace and endurance separately, reduce load if participating, and avoid a last-minute long test. A slower target does not resolve insufficient endurance; reassess starting if preparation or health does not support it.",
+    "title": "Taper and confirm race pace",
+    "target": "Three runs with a non-running day between them; no football. Distances are conditional on comfortable completion and recovery.",
+    "adjustment": "Reduce volume; place the longer outing early enough to recover. Final pace review uses actual training and conditions. No hard test, new workout, or last-minute long run.",
     "sessions": [
       {
         "kind": "Easy 1",
-        "minKm": 3,
-        "maxKm": 3,
+        "minKm": 4,
+        "maxKm": 5,
         "optional": false,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": ""
       },
       {
         "kind": "Easy 2",
-        "minKm": 2,
-        "maxKm": 3,
+        "minKm": 4,
+        "maxKm": 5,
         "optional": false,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": "Optional within total: 2 × 3 min near 5:55–6:00/km; 2 min easy between. Finish fresh."
       },
       {
         "kind": "Long easy",
-        "minKm": 3,
-        "maxKm": 4,
+        "minKm": 7,
+        "maxKm": 8,
         "optional": false,
-        "paceMinSecondsPerKm": 420,
-        "paceMaxSecondsPerKm": 480
+        "paceMinSecondsPerKm": 410,
+        "paceMaxSecondsPerKm": 460,
+        "note": ""
       }
     ]
   },
   {
     "startDate": "2026-12-10",
     "endDate": "2026-12-13",
-    "title": "Event window",
-    "target": "Event decision first; optional short easy outing and rest.",
-    "adjustment": "Optional easy outing on 10 or 11 Dec; rest on 12 Dec. Race date fixed: 13 Dec. Use the pace supported by current training and conditions; do not bank time early. The displayed sub-6 goal is not a confirmed race prescription.",
+    "title": "Race window",
+    "target": "Optional short easy run, rest, then the fixed 13 December event if ready.",
+    "adjustment": "13 Dec is fixed. Optional 2–3 km on 10 or 11 Dec, rest 12 Dec. Start controlled; no banking time. Use the race pace supported by training and conditions. Reassess starting if pain, illness or inadequate endurance persists.",
     "sessions": [
       {
         "kind": "Easy 1",
         "minKm": 2,
         "maxKm": 3,
         "optional": true,
-        "paceMinSecondsPerKm": 410,
-        "paceMaxSecondsPerKm": 465
+        "paceMinSecondsPerKm": 400,
+        "paceMaxSecondsPerKm": 440,
+        "note": ""
       },
       {
         "kind": "Easy 2",
@@ -251,7 +273,8 @@
         "maxKm": 0,
         "optional": true,
         "paceMinSecondsPerKm": null,
-        "paceMaxSecondsPerKm": null
+        "paceMaxSecondsPerKm": null,
+        "note": ""
       },
       {
         "kind": "Race",
@@ -259,7 +282,8 @@
         "maxKm": 21.0975,
         "optional": false,
         "paceMinSecondsPerKm": 355,
-        "paceMaxSecondsPerKm": 359
+        "paceMaxSecondsPerKm": 359,
+        "note": ""
       }
     ]
   }

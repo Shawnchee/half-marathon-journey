@@ -85,3 +85,5 @@ header{border-radius:1.25rem;min-height:4.3rem}.hero{padding:3.1rem 0 2.5rem}.ra
 @media(max-width:560px){.trend-controls .segmented{width:100%;justify-content:space-between}.trend-controls .segmented button{flex:1}.period-summary{gap:.55rem .75rem}.period-summary strong{font-size:.8rem}.period-summary span{font-size:.65rem}}
 
 .pace-guide{font-size:.76rem;line-height:1.65;color:var(--muted);max-width:57rem;margin:.6rem 0 1rem}.session-distance{display:block}.plan-table .session-pace{display:block;font-size:.63rem;color:var(--ink);margin-top:.3rem;font-family:var(--font-numbers)}.plan-table .session-optional{display:block;font-size:.58rem;color:var(--muted);margin-top:.25rem;font-family:system-ui,sans-serif}.plan-table thead small{display:block;font-size:.6rem;font-weight:400}.plan-table{min-width:560px}@media(max-width:560px){.pace-guide{font-size:.72rem}.plan-table .session-pace{font-size:.6rem}}
+
+.session-note{display:block;white-space:normal;max-width:26ch;margin-top:.45rem;font-family:var(--font-body,system-ui,sans-serif);font-size:.72rem;line-height:1.5;color:var(--muted)}

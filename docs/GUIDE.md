@@ -37,7 +37,7 @@ Pace is calculated from distance and duration, rounded to the nearest second per
 
 ### The weeks ahead
 
-The current source is `data/weeks.json`, shown in the live weekly table with pace guides. Three easy session slots replace the earlier football-based plan. The conservative progression starts from the sole recent documented 3 km, includes a lighter week, and must change with actual logs. See [the current evidence review](TRAINING-REVIEW-2026-10-26.md) for the race decision and longer-term route to sub-6:00/km. These distances alone do not prepare someone to race a half marathon on 13 December.
+The current source is `data/weeks.json`, shown in the live weekly table with pace guides. Three easy session slots replace the earlier football-based plan. The revised progression reflects the clarification that 3 km was a chosen distance, not a current maximum. It includes a lighter week, controlled pace practice and a conditional 12–14 km peak, then a taper. See [the current evidence review](TRAINING-REVIEW-2026-10-26.md) for the race decision and longer-term route to sub-6:00/km. The schedule alone cannot establish race readiness or guarantee sub-6:00/km.
 
 ### Open the site
 
@@ -192,9 +192,9 @@ Corrections: edit `data/logs.json` through GitHub's file editor while signed in 
 
 ## Current weekly training targets
 
-The public table uses three session slots: Easy 1, Easy 2 and Long easy (event goal in the last window). Football is paused. Leave a non-running day between runs. Easy guides are 6:50–7:45/km and 7:00–8:00/km for longer runs; conversation and comfortable effort override these untested ranges. Planned distance and pace never count as completed performances.
+The public table uses three session slots: Easy 1, Easy 2 and Long easy (event goal in the last window). Football is paused. Leave a non-running day between runs. Easy guides are 6:40–7:20/km and 6:50–7:40/km for longer runs; conversation and comfortable effort override these untested ranges. Planned distance and pace never count as completed performances.
 
-The race row is explicitly a pending event decision, not a training prescription. Sub-6:00/km remains the goal; readiness is not established. The user has confirmed 13 December is fixed; assess the pace target by 25 November from actual training, with another review nearer race day. No time is promised from one recent 3 km. See [the evidence review](TRAINING-REVIEW-2026-10-26.md).
+Easy 2 may contain optional controlled blocks, shown within its distance total; warm-up, recoveries and cool-down are included. Session `note` text is validated anonymous plan content. The race row shows the target, not a confirmed pace prescription. Sub-6:00/km remains the goal; readiness is not established. The user has confirmed 13 December is fixed; assess the pace target by 25 November from actual training, with another review nearer race day. No time is promised from one recent 3 km. See [the evidence review](TRAINING-REVIEW-2026-10-26.md).
 
 ## Where records live and how the period views work
 
@@ -211,3 +211,5 @@ The period calculations live in `assets/trends.js`. Verify date boundaries, leap
 ## Revision history
 
 Earlier versions accommodated football with two priority runs and an optional third. On 26 October, football was paused and that draft was replaced by the three-run progression and evidence review linked above. The TikTok carousel was reviewed previously; its advanced workload was not copied. No new completed run was supplied or added.
+
+The subsequent clarification that 3 km was chosen rather than limiting supersedes the earlier cautious 4.8 km peak. The new three-run schedule peaks at 23–27 km/week and a conditional 12–14 km long run. No additional performance has been logged; the reference to feeling comfortable around 6:30/km is qualitative context, not a new timed run.
