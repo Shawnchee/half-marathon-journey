@@ -41,9 +41,9 @@ No AI- or creator-generated schedule can promise this race goal from the limited
 
 ## Current decision: football paused, three-run build
 
-This section supersedes the earlier two-priority-run draft. The user has chosen to skip football. The calendar still contains 13 December; no later race date has been agreed. The goal means **under 6:00 min/km for the half marathon**, not a six-kilometre race. The only recent recorded performance remains the 22 October 3 km; historical PBs are not current fitness tests.
+This section supersedes the earlier two-priority-run draft. The user has chosen to skip football. The user has confirmed that **13 December is fixed**, with the pace goal to be assessed during training. The goal means **under 6:00 min/km for the half marathon**, not a six-kilometre race. The only recent recorded performance remains the 22 October 3 km; historical PBs are not current fitness tests.
 
-**Recommendation:** establish three separated easy outings, then choose a longer preparation period for a credible sub-6:00/km attempt. There are 48 days from this review to the event. More available training days cannot establish tissue tolerance or endurance on a deadline. No specific finish time can be predicted from the current record.
+**Recommendation:** establish three separated easy outings and assess the sub-6:00/km target from actual training. Keep the confirmed 13 December race date. A longer preparation period would allow more endurance development, but no date change is assumed. There are 48 days from this review to the event. More available training days cannot establish tissue tolerance or endurance on a deadline. No specific finish time can be predicted from the current record.
 
 ### Current working targets
 
@@ -76,6 +76,6 @@ For context, the [B.A.A. first-half-marathon programme](https://www.baa.org/race
 2. Build comfortable endurance over additional weeks or months. Once ready for a half-marathon block, progressively longer outings toward roughly 14–16 km are a useful coaching aim, not an admission test or guarantee; longer runs should not dominate an otherwise tiny weekly load. Include lighter weeks and a taper.
 3. Only after a stable base, replace one easy run with modest controlled goal-pace practice, initially short repetitions around 5:55–6:00/km with easy recovery. Warm-up and cool-down count toward the session total. Keep the longer run easy, and do not add speed and distance simultaneously. No such workout is prescribed now from the limited baseline.
 4. Review recent sustained pace, endurance, recovery, weather and course together before selecting race pace. Completing a short goal-pace session alone does not predict holding it for 21.1 km. The relevant goal is the whole race average below 6:00/km; do not bank time with a fast start.
-5. Decide by 25 November whether December participation is justified by actual training. If logs still resemble this conservative progression, recommend a later goal race or shorter event. Run/walk also requires sufficient endurance; it is not automatic clearance for an underprepared half marathon.
+5. At the 25 November checkpoint, assess the pace goal for the fixed 13 December race using logged consistency, comfortable longer outings, recovery and any goal-pace practice justified by the base. Do not treat these as a validated pass/fail formula. Revise race pace if sub-6:00/km is unsupported, then reassess nearer race day and for conditions. Separately, if endurance or health does not support starting, reassess participation: slowing down or using run/walk is not automatic clearance for an underprepared half marathon.
 
 For future longer outings, retain the earlier heat and fuelling guidance above. Stop for worsening pain or altered gait and reassess before continuing. No additional completed runs have been added, no race date changed, and no outcome promised.

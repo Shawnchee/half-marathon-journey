@@ -194,7 +194,7 @@ Corrections: edit `data/logs.json` through GitHub's file editor while signed in 
 
 The public table uses three session slots: Easy 1, Easy 2 and Long easy (event goal in the last window). Football is paused. Leave a non-running day between runs. Easy guides are 6:50–7:45/km and 7:00–8:00/km for longer runs; conversation and comfortable effort override these untested ranges. Planned distance and pace never count as completed performances.
 
-The race row is explicitly a pending event decision, not a training prescription. Sub-6:00/km remains the goal; readiness is not established. A longer preparation period is recommended rather than promising a time from one recent 3 km. See [the evidence review](TRAINING-REVIEW-2026-10-26.md).
+The race row is explicitly a pending event decision, not a training prescription. Sub-6:00/km remains the goal; readiness is not established. The user has confirmed 13 December is fixed; assess the pace target by 25 November from actual training, with another review nearer race day. No time is promised from one recent 3 km. See [the evidence review](TRAINING-REVIEW-2026-10-26.md).
 
 ## Where records live and how the period views work
 

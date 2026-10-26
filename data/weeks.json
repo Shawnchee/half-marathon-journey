@@ -136,7 +136,7 @@
     "endDate": "2026-11-25",
     "title": "Review current fitness",
     "target": "Three easy runs, with at least one non-running day between them. No football; repeat or reduce when needed.",
-    "adjustment": "By 25 Nov, review actual logs and recovery. If this is still the supported endurance level, do not target 21.1 km at sub-6:00/km on 13 Dec; select a later goal race.",
+    "adjustment": "25 Nov pace checkpoint for the fixed 13 Dec race: review logged consistency, endurance and recovery. Keep sub-6:00/km only if supported; otherwise revise race pace. This conservative build alone does not establish 21.1 km readiness.",
     "sessions": [
       {
         "kind": "Easy 1",
@@ -202,7 +202,7 @@
     "endDate": "2026-12-09",
     "title": "Race decision",
     "target": "Three easy runs, with at least one non-running day between them. No football; repeat or reduce when needed.",
-    "adjustment": "If entering the event, reduce load; no last-minute endurance test. With only this progression completed, the half marathon remains unsupported. Consider a shorter event or deferring.",
+    "adjustment": "13 Dec remains fixed. Review pace and endurance separately, reduce load if participating, and avoid a last-minute long test. A slower target does not resolve insufficient endurance; reassess starting if preparation or health does not support it.",
     "sessions": [
       {
         "kind": "Easy 1",
@@ -235,7 +235,7 @@
     "endDate": "2026-12-13",
     "title": "Event window",
     "target": "Event decision first; optional short easy outing and rest.",
-    "adjustment": "Optional easy outing on 10 or 11 Dec; rest on 12 Dec. Race distance and pace below are the event goal only, not clearance to start. If readiness remains unestablished, defer or choose a shorter event.",
+    "adjustment": "Optional easy outing on 10 or 11 Dec; rest on 12 Dec. Race date fixed: 13 Dec. Use the pace supported by current training and conditions; do not bank time early. The displayed sub-6 goal is not a confirmed race prescription.",
     "sessions": [
       {
         "kind": "Easy 1",
