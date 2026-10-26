@@ -28,13 +28,13 @@
    row.append(window);
    w.sessions.forEach(session=>{
     const cell=el('td'),rest=session.maxKm===0;
-    cell.append(el('span',session.kind==='Race'?'Race · 21.1 km':range(session.minKm,session.maxKm),'session-distance'));
+    cell.append(el('span',session.kind==='Race'?'Event goal · 21.1 km':range(session.minKm,session.maxKm),'session-distance'));
     if(!rest)cell.append(el('small',(session.kind==='Race'?'Goal ':'')+pace(session.paceMinSecondsPerKm)+'–'+pace(session.paceMaxSecondsPerKm)+'/km','session-pace'));
     if(session.optional&&!rest)cell.append(el('small','Optional','session-optional'));
     row.append(cell);
    });
    const core=w.sessions.filter(s=>!s.optional),extra=w.sessions.filter(s=>s.optional&&s.maxKm>0);
-   const totalCell=el('td');totalCell.append(el('span',i===7?'Race':range(core.reduce((n,s)=>n+s.minKm,0),core.reduce((n,s)=>n+s.maxKm,0))));
+   const totalCell=el('td');totalCell.append(el('span',i===7?'Decision pending':range(core.reduce((n,s)=>n+s.minKm,0),core.reduce((n,s)=>n+s.maxKm,0))));
    if(extra.length)totalCell.append(el('small','+ '+range(extra.reduce((n,s)=>n+s.minKm,0),extra.reduce((n,s)=>n+s.maxKm,0))+' optional','session-optional'));
    row.append(totalCell);
    if(now>=w.startDate&&now<=w.endDate)row.className='current-week';

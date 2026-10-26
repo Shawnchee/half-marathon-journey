@@ -12,7 +12,7 @@ All commands and file paths below are relative to the repository root.
 
 A public record of building toward a half marathon on **13 December 2026**, with a target of **strictly under 6:00 min/km**. For 21.0975 km, that means under **2:06:35.1** (derived from the target, not a predicted finish). Fitness and readiness are still being established. No finish or race result has been reported.
 
-The plan fits around variable football. Weekly intentions replace fixed running days, and recovery can change the week. Future intentions are never counted as completed training.
+Football is paused. The current plan uses three easy runs with at least one non-running day between them, adjusted for recovery. The 13 December event stays on the calendar; current logs do not yet establish readiness. Future intentions never count as completed training.
 
 ### The work so far
 
@@ -37,18 +37,7 @@ Pace is calculated from distance and duration, rounded to the nearest second per
 
 ### The weeks ahead
 
-| Window (2026) | Flexible intention |
-| :--- | :--- |
-| 22–28 Oct | Find the rhythm; make room for easy running around football |
-| 29 Oct–4 Nov | Repeat a manageable week; adjust for recovery |
-| 5–11 Nov | Consider more comfortable time on feet if recovered |
-| 12–18 Nov | Settle into a sustainable routine |
-| 19–25 Nov | Check in and reassess the race target using current training |
-| 26 Nov–2 Dec | Keep it sustainable; no distance catch-up |
-| 3–9 Dec | Reduce load and make room for rest |
-| 10–13 Dec | Arrive fresh; keep any pre-race running light and optional |
-
-These are editable intentions, not a prescribed mileage plan or a promise of readiness. There are no scheduled run weekdays, invented sessions, or numerical mileage increases. Football contributes to the overall workload; its dates and locations are not recorded here. Full wording lives in `data/weeks.json` and appears in the site's expandable timeline. If you edit a window's wording, update this summary too.
+The current source is `data/weeks.json`, shown in the live weekly table with pace guides. Three easy session slots replace the earlier football-based plan. The conservative progression starts from the sole recent documented 3 km, includes a lighter week, and must change with actual logs. See [the current evidence review](TRAINING-REVIEW-2026-10-26.md) for the race decision and longer-term route to sub-6:00/km. These distances alone do not prepare someone to race a half marathon on 13 December.
 
 ### Open the site
 
@@ -201,13 +190,11 @@ This is GitHub-authenticated owner access, not a separate website account. The p
 
 Corrections: edit `data/logs.json` through GitHub's file editor while signed in as the owner, then commit. A push to `main` runs the same validation/build/deployment workflow. Local edits and the chat-based update process still work. The README stays short. Pages now deploys through **GitHub Actions**, replacing the earlier branch-publishing instructions.
 
-## Concrete weekly training targets
+## Current weekly training targets
 
-The live plan now replaces the earlier qualitative intentions with three flexible session slots per week: Easy 1, Easy 2, and a longer easy run (race in the last window). `data/weeks.json` stores each session's `kind`, `minKm`, and `maxKm`; the site calculates the suggested weekly totals. Planned kilometres never contribute to completed-run totals. The first week's target includes the already completed 22 October run.
+The public table uses three session slots: Easy 1, Easy 2 and Long easy (event goal in the last window). Football is paused. Leave a non-running day between runs. Easy guides are 6:50–7:45/km and 7:00–8:00/km for longer runs; conversation and comfortable effort override these untested ranges. Planned distance and pace never count as completed performances.
 
-The plan is visible by default; only detailed recovery and weekly adjustment notes are folded away. Easy runs use conversational effort, approximately 3–4/10, not the race-target pace. Football counts as hard activity; skipping the second easy run and repeating a week are acceptable adjustments. The final window is an optional 2 km, rest, then race day if ready.
-
-This is a custom, conditional proposal based on the limited supplied recent training, not a compressed claim of readiness. The 52-day window is shorter than the 12-week beginner programmes provided by [Great Run](https://www.greatrun.org/train-and-prepare/training-plans/half-marathon-training-plan/). Rest-day guidance is informed by [NHS beginner running guidance](https://www.nhs.uk/better-health/get-active/get-running-with-couch-to-5k/). Reassess both race participation and the sub-6:00 goal using actual training and recovery. Historical PBs do not set current training pace.
+The race row is explicitly a pending event decision, not a training prescription. Sub-6:00/km remains the goal; readiness is not established. A longer preparation period is recommended rather than promising a time from one recent 3 km. See [the evidence review](TRAINING-REVIEW-2026-10-26.md).
 
 ## Where records live and how the period views work
 
@@ -221,12 +208,6 @@ This is a custom, conditional proposal based on the limited supplied recent trai
 
 The period calculations live in `assets/trends.js`. Verify date boundaries, leap months, same-day entries, weighted pace, and empty periods with `node --test tests/trends.test.cjs`. Browser preferences and period selection are not a backup: the repository is the saved record.
 
-## Pace guides and two-priority-run revision
+## Revision history
 
-Each session in `data/weeks.json` now has `paceMinSecondsPerKm`, `paceMaxSecondsPerKm`, and an `optional` flag. The weekly table shows the guide under its distance. Rest slots have null pace values. Easy 1 starts at 6:50–7:30/km; optional Easy 2 and longer easy runs start at 7:00–7:45/km. These are rough starting estimates from the sole recent 22 October run, not tested pace zones. Comfortable conversation and easy effort override the numeric range; slower running or walking is acceptable. The displayed race goal of 5:55–5:59/km is conditional on readiness, not a current race prescription.
-
-The revised draft uses Easy 1 plus a longer run as the priorities; Easy 2 is optional. Core totals exclude the optional slot, whose distance appears separately. It includes a lighter week and taper, with a conditional 10–12 km peak rather than forcing a much longer outing from the limited recent baseline. The completed 3 km remains recorded at its supplied actual pace of 6:46/km. Planned paces never rewrite logged performances or guarantee readiness for 21.1 km.
-
-## 26 October evidence review
-
-The TikTok reference has been reviewed in full (15 carousel slides plus caption). The plan retains its existing distance and pace ranges, with clearer instructions for gentle starts, easy long-run finishes, recovery around football, heat-adjusted effort, practising fuel/fluids, and the 25 November race-goal checkpoint. See [the review and rationale](TRAINING-REVIEW-2026-10-26.md). No new completed run was supplied or added.
+Earlier versions accommodated football with two priority runs and an optional third. On 26 October, football was paused and that draft was replaced by the three-run progression and evidence review linked above. The TikTok carousel was reviewed previously; its advanced workload was not copied. No new completed run was supplied or added.
