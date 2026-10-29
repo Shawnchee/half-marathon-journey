@@ -17,12 +17,13 @@ Football is paused. The current plan uses three easy runs with at least one non-
 ### The work so far
 
 <!-- STATS:START -->
-**5.5 km logged · 2 completed runs · Last entry: 2026-10-27**
+**9.6 km logged · 3 completed runs · Last entry: 2026-10-29**
 
 | Date | Distance | Pace | Duration | Effort |
 | :--- | ---: | ---: | ---: | ---: |
 | 2026-10-22 | 3.0 km | 6:46 min/km | 20:18 | 4/10 |
 | 2026-10-27 | 2.5 km | 6:28 min/km | 16:10 | 2.5/10 |
+| 2026-10-29 | 4.1 km | 6:28 min/km | 26:39 | 4.0/10 |
 <!-- STATS:END -->
 
 Pace is calculated from distance and duration, rounded to the nearest second per kilometre. The starting run was supplied as 3.0 km, 6:46 min/km, 20:18, effort 4/10. Calendar time passing does not establish further training or a completed race.

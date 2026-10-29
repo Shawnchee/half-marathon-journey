@@ -10,5 +10,11 @@
     "distanceKm": 2.5,
     "durationSeconds": 970,
     "effort": 2.5
+  },
+  {
+    "date": "2026-10-29",
+    "distanceKm": 4.12,
+    "durationSeconds": 1599,
+    "effort": 4.0
   }
 ]
