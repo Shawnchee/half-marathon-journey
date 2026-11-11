@@ -54,6 +54,8 @@ jobs:
           if os.environ['RUN_SAME_DAY']=='true': command.append('--allow-same-day')
           subprocess.run(command,check=True)
           PY
+      - name: Check journal calendar boundaries
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
       - name: Validate and refresh data
         run: python3 scripts/build.py
       - name: Save the run as the repository owner

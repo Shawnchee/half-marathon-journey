@@ -7,6 +7,7 @@ import math
 import re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
+JOURNAL_TIMEZONE=dt.timezone(dt.timedelta(hours=8))
 def require(condition,message):
     if not condition: raise ValueError(message)
 def keys(value,allowed):
@@ -14,6 +15,10 @@ def keys(value,allowed):
 def date(s):
     require(isinstance(s,str) and re.fullmatch(r'\d{4}-\d{2}-\d{2}',s) is not None,'Use YYYY-MM-DD dates.')
     return dt.date.fromisoformat(s)
+def require_completed_date(value, now=None):
+    instant=now if now is not None else dt.datetime.now(dt.timezone.utc)
+    today=instant.astimezone(JOURNAL_TIMEZONE).date()
+    require(date(value)<=today,'Do not record future training as complete (journal calendar: UTC+08:00).')
 def number(x): return type(x) in (float,int) and math.isfinite(x)
 def pace(s): return f'{s//60}:{s%60:02}'
 def build():
@@ -36,7 +41,7 @@ def build():
     for r in logs:
         keys(r,['date','distanceKm','durationSeconds','effort'])
         require(date(r['date'])>=date(j['startDate']),'Log date must be on or after the journey start; records can continue after race day.')
-        require(date(r['date'])<=dt.date.today(),'Do not record future training as complete.')
+        require_completed_date(r['date'])
         require(number(r['distanceKm']) and r['distanceKm']>0,'Distance must be a positive number.')
         require(type(r['durationSeconds']) is int and r['durationSeconds']>0,'Duration must be positive whole seconds.')
         require(number(r['effort']) and 1<=r['effort']<=10,'Effort must be from 1 to 10.')

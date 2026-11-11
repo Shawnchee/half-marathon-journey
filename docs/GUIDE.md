@@ -68,7 +68,7 @@ The site has distance and pace charts, an expandable training log, flexible week
 }
 ```
 
-This is a schema illustration, **not a run**. Replace the placeholder date, distance, duration, and effort with real values. Distance and duration must be greater than zero; duration is whole seconds; effort is 1–10. Use a calendar date without a time or location. Keep commas between objects in the array. More than one run on the same date is allowed.
+This is a schema illustration, **not a run**. Replace the placeholder date, distance, duration, and effort with real values. Distance and duration must be greater than zero; duration is whole seconds; effort is 1–10. Use a calendar date without a time or location. Completed-run validation uses the journal calendar (UTC+08:00), including on GitHub Actions; a different server timezone cannot reject a run logged after local midnight. Keep commas between objects in the array. More than one run on the same date is allowed.
 
 2. From the repository folder, refresh the site data and README totals:
 
